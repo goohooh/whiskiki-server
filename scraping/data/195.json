@@ -1,1 +1,25 @@
-"{\"id\":195,\"name\":\"켄터키 젠틀맨 스트레이트 버번\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/ec803294-8ee1-458d-9866-477ce4425087.jpg\",\"is_hidden\":true,\"web_url\":\"https://api.dailyshot.co/pickup/products/195/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Kentucky Gentleman Straight Bourbon\",\"price\":23000,\"discount_percent\":17,\"is_temp_hidden\":false,\"is_hidden_at_bar\":true,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/da93c237-6c37-4904-bd95-8a30e6f49a07.png\",\"review_rate\":4.4,\"review_count\":128,\"tags\":[],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 195,
+  "name": "켄터키 젠틀맨 스트레이트 버번",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/ec803294-8ee1-458d-9866-477ce4425087.jpg",
+  "is_hidden": true,
+  "web_url": "https://api.dailyshot.co/pickup/products/195/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Kentucky Gentleman Straight Bourbon",
+  "price": 23000,
+  "discount_percent": 17,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": true,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/da93c237-6c37-4904-bd95-8a30e6f49a07.png",
+  "review_rate": 4.4,
+  "review_count": 128,
+  "tags": [],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

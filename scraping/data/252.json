@@ -1,1 +1,25 @@
-"{\"id\":252,\"name\":\"[사전예약] 와일드 터키 101 전용잔 패키지\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/0537c6d2-34b1-4749-b2b1-25948cbd4b38.jpg\",\"is_hidden\":true,\"web_url\":null,\"sell_type\":0,\"en_name\":\"Wild Turkey 101 Glass Package\",\"price\":58000,\"discount_percent\":null,\"is_temp_hidden\":true,\"is_hidden_at_bar\":true,\"is_temp_hidden_at_bar\":true,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/7a523f64-4268-4c9e-9336-9b271047787f.png\",\"review_rate\":5.0,\"review_count\":21,\"tags\":[],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 252,
+  "name": "[사전예약] 와일드 터키 101 전용잔 패키지",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/0537c6d2-34b1-4749-b2b1-25948cbd4b38.jpg",
+  "is_hidden": true,
+  "web_url": null,
+  "sell_type": 0,
+  "en_name": "Wild Turkey 101 Glass Package",
+  "price": 58000,
+  "discount_percent": null,
+  "is_temp_hidden": true,
+  "is_hidden_at_bar": true,
+  "is_temp_hidden_at_bar": true,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/7a523f64-4268-4c9e-9336-9b271047787f.png",
+  "review_rate": 5,
+  "review_count": 21,
+  "tags": [],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

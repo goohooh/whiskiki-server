@@ -1,1 +1,25 @@
-"{\"id\":470,\"name\":\"하페니 오리지날 위스키 블렌드\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/313b83ea-eb62-4f22-8f72-0c1809f94af1.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/470/detail/?native=true\",\"sell_type\":1,\"en_name\":\"Ha'penny Whiskey Original Blend\",\"price\":60300,\"discount_percent\":20,\"is_temp_hidden\":false,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":false,\"pay_button_text\":\"내 주변 픽업 주문하기\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/abe81fd8-46c0-4940-a42c-ba6f4ac5959b.png\",\"review_rate\":5.0,\"review_count\":1,\"tags\":[],\"status\":2,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 470,
+  "name": "하페니 오리지날 위스키 블렌드",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/313b83ea-eb62-4f22-8f72-0c1809f94af1.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/470/detail/?native=true",
+  "sell_type": 1,
+  "en_name": "Ha'penny Whiskey Original Blend",
+  "price": 60300,
+  "discount_percent": 20,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": false,
+  "pay_button_text": "내 주변 픽업 주문하기",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/abe81fd8-46c0-4940-a42c-ba6f4ac5959b.png",
+  "review_rate": 5,
+  "review_count": 1,
+  "tags": [],
+  "status": 2,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

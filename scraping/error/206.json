@@ -1,1 +1,45 @@
-{"name":"StatusCodeError","statusCode":404,"message":"404 - \"{\\\"error\\\":0,\\\"message\\\":\\\"상품이 존재 하지 않습니다.\\\"}\"","error":"{\"error\":0,\"message\":\"상품이 존재 하지 않습니다.\"}","options":{"uri":"https://api.dailyshot.co/pickup/products/206","simple":true,"resolveWithFullResponse":false,"transform2xxOnly":false},"response":{"statusCode":404,"body":"{\"error\":0,\"message\":\"상품이 존재 하지 않습니다.\"}","headers":{"date":"Tue, 03 May 2022 14:58:23 GMT","content-type":"application/json","content-length":"61","connection":"close","server":"nginx/1.14.0 (Ubuntu)","allow":"GET, HEAD, OPTIONS","vary":"Origin, Accept-Language, Cookie","x-frame-options":"SAMEORIGIN","content-language":"ko"},"request":{"uri":{"protocol":"https:","slashes":true,"auth":null,"host":"api.dailyshot.co","port":443,"hostname":"api.dailyshot.co","hash":null,"search":null,"query":null,"pathname":"/pickup/products/206/","path":"/pickup/products/206/","href":"https://api.dailyshot.co/pickup/products/206/"},"method":"GET","headers":{"referer":"https://api.dailyshot.co/pickup/products/206"}}}}
+{
+  "name": "StatusCodeError",
+  "statusCode": 404,
+  "message": "404 - \"{\\\"error\\\":0,\\\"message\\\":\\\"상품이 존재 하지 않습니다.\\\"}\"",
+  "error": "{\"error\":0,\"message\":\"상품이 존재 하지 않습니다.\"}",
+  "options": {
+    "uri": "https://api.dailyshot.co/pickup/products/206",
+    "simple": true,
+    "resolveWithFullResponse": false,
+    "transform2xxOnly": false
+  },
+  "response": {
+    "statusCode": 404,
+    "body": "{\"error\":0,\"message\":\"상품이 존재 하지 않습니다.\"}",
+    "headers": {
+      "date": "Tue, 03 May 2022 14:58:23 GMT",
+      "content-type": "application/json",
+      "content-length": "61",
+      "connection": "close",
+      "server": "nginx/1.14.0 (Ubuntu)",
+      "allow": "GET, HEAD, OPTIONS",
+      "vary": "Origin, Accept-Language, Cookie",
+      "x-frame-options": "SAMEORIGIN",
+      "content-language": "ko"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "api.dailyshot.co",
+        "port": 443,
+        "hostname": "api.dailyshot.co",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/pickup/products/206/",
+        "path": "/pickup/products/206/",
+        "href": "https://api.dailyshot.co/pickup/products/206/"
+      },
+      "method": "GET",
+      "headers": { "referer": "https://api.dailyshot.co/pickup/products/206" }
+    }
+  }
+}

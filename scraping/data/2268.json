@@ -1,1 +1,25 @@
-"{\"id\":2268,\"name\":\"글렌알라키 15년\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/d09ac560-e305-4a3c-b44f-eba5d652cb5d.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/2268/detail/?native=true\",\"sell_type\":2,\"en_name\":\"GlenAllachie 15yo\",\"price\":191900,\"discount_percent\":23,\"is_temp_hidden\":false,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":false,\"pay_button_text\":\"내 주변 픽업 주문하기\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/b2db6de7-832e-4407-a8b2-c261d48488e8.png\",\"review_rate\":4.9,\"review_count\":53,\"tags\":[],\"status\":2,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 2268,
+  "name": "글렌알라키 15년",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/d09ac560-e305-4a3c-b44f-eba5d652cb5d.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/2268/detail/?native=true",
+  "sell_type": 2,
+  "en_name": "GlenAllachie 15yo",
+  "price": 191900,
+  "discount_percent": 23,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": false,
+  "pay_button_text": "내 주변 픽업 주문하기",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/b2db6de7-832e-4407-a8b2-c261d48488e8.png",
+  "review_rate": 4.9,
+  "review_count": 53,
+  "tags": [],
+  "status": 2,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

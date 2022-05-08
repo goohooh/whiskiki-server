@@ -1,1 +1,32 @@
-"{\"id\":589,\"name\":\"디아블로 까베르네 소비뇽 500ml 2병 전용잔 세트\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/2676c9be-3f16-4493-a3dd-0c1c2954bf4e.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/589/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Diablo Cabernet Sauvignon 500ml 2 Bottles & 1 Glass set\",\"price\":17800,\"discount_percent\":null,\"is_temp_hidden\":false,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"내 주변 픽업 주문하기\",\"pay_button_help_text\":null,\"image\":null,\"review_rate\":4.4,\"review_count\":248,\"tags\":[{\"name\":\"한정판\",\"text_color\":\"#FF8C19\",\"background_hex\":\"#FF8C19\",\"background_alpha\":16}],\"status\":2,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 589,
+  "name": "디아블로 까베르네 소비뇽 500ml 2병 전용잔 세트",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/2676c9be-3f16-4493-a3dd-0c1c2954bf4e.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/589/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Diablo Cabernet Sauvignon 500ml 2 Bottles & 1 Glass set",
+  "price": 17800,
+  "discount_percent": null,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "내 주변 픽업 주문하기",
+  "pay_button_help_text": null,
+  "image": null,
+  "review_rate": 4.4,
+  "review_count": 248,
+  "tags": [
+    {
+      "name": "한정판",
+      "text_color": "#FF8C19",
+      "background_hex": "#FF8C19",
+      "background_alpha": 16
+    }
+  ],
+  "status": 2,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

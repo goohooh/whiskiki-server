@@ -1,1 +1,25 @@
-"{\"id\":16,\"name\":\"달모어 시가 몰트 리저브\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/b0047915-bc29-4df4-a830-4fae6ba3f5e6.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/16/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Dalmore Cigar Malt Reserve\",\"price\":261000,\"discount_percent\":14,\"is_temp_hidden\":true,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":true,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/75f18b26-390b-4c92-b38a-22e79f47ae05.png\",\"review_rate\":4.8,\"review_count\":12,\"tags\":[],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 16,
+  "name": "달모어 시가 몰트 리저브",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/b0047915-bc29-4df4-a830-4fae6ba3f5e6.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/16/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Dalmore Cigar Malt Reserve",
+  "price": 261000,
+  "discount_percent": 14,
+  "is_temp_hidden": true,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": true,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/75f18b26-390b-4c92-b38a-22e79f47ae05.png",
+  "review_rate": 4.8,
+  "review_count": 12,
+  "tags": [],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

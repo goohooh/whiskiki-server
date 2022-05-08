@@ -1,1 +1,32 @@
-"{\"id\":2534,\"name\":\"(4월 할인)글렌토커스 싱글 캐스크 23년 가이아나 럼 캐스크\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/b0db8db4-0f64-4eb1-82dd-7c099994d91b.jpeg\",\"is_hidden\":true,\"web_url\":\"https://api.dailyshot.co/pickup/products/2534/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Glentauchers Single Cask 23yo Guyana Rum Cask\",\"price\":281000,\"discount_percent\":24,\"is_temp_hidden\":false,\"is_hidden_at_bar\":true,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":null,\"review_rate\":4.6,\"review_count\":7,\"tags\":[{\"name\":\"한정판\",\"text_color\":\"#FF8C19\",\"background_hex\":\"#FF8C19\",\"background_alpha\":16}],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 2534,
+  "name": "(4월 할인)글렌토커스 싱글 캐스크 23년 가이아나 럼 캐스크",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/b0db8db4-0f64-4eb1-82dd-7c099994d91b.jpeg",
+  "is_hidden": true,
+  "web_url": "https://api.dailyshot.co/pickup/products/2534/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Glentauchers Single Cask 23yo Guyana Rum Cask",
+  "price": 281000,
+  "discount_percent": 24,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": true,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": null,
+  "review_rate": 4.6,
+  "review_count": 7,
+  "tags": [
+    {
+      "name": "한정판",
+      "text_color": "#FF8C19",
+      "background_hex": "#FF8C19",
+      "background_alpha": 16
+    }
+  ],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

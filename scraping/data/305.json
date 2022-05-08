@@ -1,1 +1,32 @@
-"{\"id\":305,\"name\":\"킬호만 사닉\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/4f85026f-045d-4ce0-a59f-be8f915e50b1.jpg\",\"is_hidden\":true,\"web_url\":\"https://api.dailyshot.co/pickup/products/305/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Kilchoman Sanaig\",\"price\":112900,\"discount_percent\":36,\"is_temp_hidden\":true,\"is_hidden_at_bar\":true,\"is_temp_hidden_at_bar\":true,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/31c2c083-d723-4ddc-94ef-e811b81fc0b9.png\",\"review_rate\":4.7,\"review_count\":80,\"tags\":[{\"name\":\"특가\",\"text_color\":\"#FF8C19\",\"background_hex\":\"#FF8C19\",\"background_alpha\":16}],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 305,
+  "name": "킬호만 사닉",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/4f85026f-045d-4ce0-a59f-be8f915e50b1.jpg",
+  "is_hidden": true,
+  "web_url": "https://api.dailyshot.co/pickup/products/305/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Kilchoman Sanaig",
+  "price": 112900,
+  "discount_percent": 36,
+  "is_temp_hidden": true,
+  "is_hidden_at_bar": true,
+  "is_temp_hidden_at_bar": true,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/31c2c083-d723-4ddc-94ef-e811b81fc0b9.png",
+  "review_rate": 4.7,
+  "review_count": 80,
+  "tags": [
+    {
+      "name": "특가",
+      "text_color": "#FF8C19",
+      "background_hex": "#FF8C19",
+      "background_alpha": 16
+    }
+  ],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

@@ -1,1 +1,25 @@
-"{\"id\":999,\"name\":\"라이터즈 티얼즈 더블 오크\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/9c483873-91c5-48ab-a7c8-bf5af1f59d6f.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/999/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Writer's Tears Double Oak\",\"price\":108900,\"discount_percent\":27,\"is_temp_hidden\":false,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"내 주변 픽업 주문하기\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/d8d2190c-7c3f-4bce-bd39-21e534c543fc.png\",\"review_rate\":5.0,\"review_count\":2,\"tags\":[],\"status\":2,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 999,
+  "name": "라이터즈 티얼즈 더블 오크",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/9c483873-91c5-48ab-a7c8-bf5af1f59d6f.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/999/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Writer's Tears Double Oak",
+  "price": 108900,
+  "discount_percent": 27,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "내 주변 픽업 주문하기",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/d8d2190c-7c3f-4bce-bd39-21e534c543fc.png",
+  "review_rate": 5,
+  "review_count": 2,
+  "tags": [],
+  "status": 2,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

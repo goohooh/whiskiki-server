@@ -1,1 +1,12 @@
-{"name":"RequestError","message":"Error: read ECONNRESET","cause":{"errno":-54,"code":"ECONNRESET","syscall":"read"},"error":{"errno":-54,"code":"ECONNRESET","syscall":"read"},"options":{"uri":"https://api.dailyshot.co/pickup/products/1510","simple":true,"resolveWithFullResponse":false,"transform2xxOnly":false}}
+{
+  "name": "RequestError",
+  "message": "Error: read ECONNRESET",
+  "cause": { "errno": -54, "code": "ECONNRESET", "syscall": "read" },
+  "error": { "errno": -54, "code": "ECONNRESET", "syscall": "read" },
+  "options": {
+    "uri": "https://api.dailyshot.co/pickup/products/1510",
+    "simple": true,
+    "resolveWithFullResponse": false,
+    "transform2xxOnly": false
+  }
+}

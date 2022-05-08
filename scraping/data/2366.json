@@ -1,1 +1,25 @@
-"{\"id\":2366,\"name\":\"[1주년 특별 할인] 조니워커 더블 블랙\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/85ad5072-b046-46d6-870d-96635a8d1e74.jpg\",\"is_hidden\":true,\"web_url\":\"https://api.dailyshot.co/pickup/products/2366/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Johnnie Walker Double Black\",\"price\":64000,\"discount_percent\":null,\"is_temp_hidden\":true,\"is_hidden_at_bar\":true,\"is_temp_hidden_at_bar\":true,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/4c68e511-8cbb-4b5b-a945-5bf99dcebf38.png\",\"review_rate\":5.0,\"review_count\":3,\"tags\":[],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 2366,
+  "name": "[1주년 특별 할인] 조니워커 더블 블랙",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/85ad5072-b046-46d6-870d-96635a8d1e74.jpg",
+  "is_hidden": true,
+  "web_url": "https://api.dailyshot.co/pickup/products/2366/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Johnnie Walker Double Black",
+  "price": 64000,
+  "discount_percent": null,
+  "is_temp_hidden": true,
+  "is_hidden_at_bar": true,
+  "is_temp_hidden_at_bar": true,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/4c68e511-8cbb-4b5b-a945-5bf99dcebf38.png",
+  "review_rate": 5,
+  "review_count": 3,
+  "tags": [],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

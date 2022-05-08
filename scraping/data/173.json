@@ -1,1 +1,32 @@
-"{\"id\":173,\"name\":\"발베니 19년 더 엣지 오브 번헤드 우드\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/f56bd838-6d6b-4b22-a530-d70f1a4399d4.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/173/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Balvenie 19yo The Edge of Burnhead Wood\",\"price\":410000,\"discount_percent\":25,\"is_temp_hidden\":true,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":true,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/71dd619f-957b-41a8-a7cf-4c32e66f0f12.png\",\"review_rate\":0.0,\"review_count\":0,\"tags\":[{\"name\":\"특가\",\"text_color\":\"#FF8C19\",\"background_hex\":\"#FF8C19\",\"background_alpha\":16}],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 173,
+  "name": "발베니 19년 더 엣지 오브 번헤드 우드",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/f56bd838-6d6b-4b22-a530-d70f1a4399d4.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/173/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Balvenie 19yo The Edge of Burnhead Wood",
+  "price": 410000,
+  "discount_percent": 25,
+  "is_temp_hidden": true,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": true,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/71dd619f-957b-41a8-a7cf-4c32e66f0f12.png",
+  "review_rate": 0,
+  "review_count": 0,
+  "tags": [
+    {
+      "name": "특가",
+      "text_color": "#FF8C19",
+      "background_hex": "#FF8C19",
+      "background_alpha": 16
+    }
+  ],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

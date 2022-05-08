@@ -1,1 +1,25 @@
-"{\"id\":1015,\"name\":\"아녹 12년\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/522fb768-2581-4fcf-afa7-9e37bc3ed3b2.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/1015/detail/?native=true\",\"sell_type\":0,\"en_name\":\"anCnoc 12yo\",\"price\":94900,\"discount_percent\":20,\"is_temp_hidden\":true,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":true,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/da46d04c-4b09-46a6-a414-b2327a4db7ef.png\",\"review_rate\":4.8,\"review_count\":32,\"tags\":[],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 1015,
+  "name": "아녹 12년",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/522fb768-2581-4fcf-afa7-9e37bc3ed3b2.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/1015/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "anCnoc 12yo",
+  "price": 94900,
+  "discount_percent": 20,
+  "is_temp_hidden": true,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": true,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/da46d04c-4b09-46a6-a414-b2327a4db7ef.png",
+  "review_rate": 4.8,
+  "review_count": 32,
+  "tags": [],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

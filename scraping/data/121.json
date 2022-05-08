@@ -1,1 +1,25 @@
-"{\"id\":121,\"name\":\"네이키드 그라우스\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/e31090e6-fa84-496f-9c3e-40a975b133f2.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/121/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Naked Grouse\",\"price\":62000,\"discount_percent\":18,\"is_temp_hidden\":true,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":true,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/d343fd88-027b-4af1-959b-c6588b51b4e3.png\",\"review_rate\":4.0,\"review_count\":16,\"tags\":[],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 121,
+  "name": "네이키드 그라우스",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/e31090e6-fa84-496f-9c3e-40a975b133f2.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/121/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Naked Grouse",
+  "price": 62000,
+  "discount_percent": 18,
+  "is_temp_hidden": true,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": true,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/d343fd88-027b-4af1-959b-c6588b51b4e3.png",
+  "review_rate": 4,
+  "review_count": 16,
+  "tags": [],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

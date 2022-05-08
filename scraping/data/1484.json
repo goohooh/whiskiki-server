@@ -1,1 +1,32 @@
-"{\"id\":1484,\"name\":\"폴 지로 엘레강스\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/8e24b12e-3c2c-4d29-ad4a-4c20a977adf8.jpeg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/1484/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Paul Giraud Elegance\",\"price\":113500,\"discount_percent\":21,\"is_temp_hidden\":true,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":true,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":null,\"review_rate\":5.0,\"review_count\":35,\"tags\":[{\"name\":\"리뷰이벤트\",\"text_color\":\"#FF8C19\",\"background_hex\":\"#FF8C19\",\"background_alpha\":16}],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 1484,
+  "name": "폴 지로 엘레강스",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/8e24b12e-3c2c-4d29-ad4a-4c20a977adf8.jpeg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/1484/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Paul Giraud Elegance",
+  "price": 113500,
+  "discount_percent": 21,
+  "is_temp_hidden": true,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": true,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": null,
+  "review_rate": 5,
+  "review_count": 35,
+  "tags": [
+    {
+      "name": "리뷰이벤트",
+      "text_color": "#FF8C19",
+      "background_hex": "#FF8C19",
+      "background_alpha": 16
+    }
+  ],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

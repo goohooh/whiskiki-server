@@ -1,1 +1,25 @@
-"{\"id\":178,\"name\":\"싱글톤 더프타운 15년\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/c33d481c-8eb5-4dd0-a166-315a6884a2fc.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/178/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Singleton Dufftown 15yo\",\"price\":122000,\"discount_percent\":20,\"is_temp_hidden\":false,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"내 주변 픽업 주문하기\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/cafaf6f8-c438-4e99-999f-bd5286be0e6a.png\",\"review_rate\":0.0,\"review_count\":0,\"tags\":[],\"status\":2,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 178,
+  "name": "싱글톤 더프타운 15년",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/c33d481c-8eb5-4dd0-a166-315a6884a2fc.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/178/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Singleton Dufftown 15yo",
+  "price": 122000,
+  "discount_percent": 20,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "내 주변 픽업 주문하기",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/cafaf6f8-c438-4e99-999f-bd5286be0e6a.png",
+  "review_rate": 0,
+  "review_count": 0,
+  "tags": [],
+  "status": 2,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

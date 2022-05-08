@@ -1,1 +1,25 @@
-"{\"id\":238,\"name\":\"데와자쿠라 준마이 긴죠\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/c6c7bfd5-bf33-4d73-bbee-e322a46d22ae.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/238/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Dewazakura Junmai Ginjo\",\"price\":47000,\"discount_percent\":16,\"is_temp_hidden\":false,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"내 주변 픽업 주문하기\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/bba60f94-d0dd-4bd1-be75-610a50c7af12.png\",\"review_rate\":4.6,\"review_count\":5,\"tags\":[],\"status\":2,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 238,
+  "name": "데와자쿠라 준마이 긴죠",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/c6c7bfd5-bf33-4d73-bbee-e322a46d22ae.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/238/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Dewazakura Junmai Ginjo",
+  "price": 47000,
+  "discount_percent": 16,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "내 주변 픽업 주문하기",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/bba60f94-d0dd-4bd1-be75-610a50c7af12.png",
+  "review_rate": 4.6,
+  "review_count": 5,
+  "tags": [],
+  "status": 2,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

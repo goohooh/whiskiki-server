@@ -1,1 +1,25 @@
-"{\"id\":760,\"name\":\"몰피 진 로사\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/d887ee36-16bd-4a82-baf0-708f74492937.jpg\",\"is_hidden\":true,\"web_url\":\"https://api.dailyshot.co/pickup/products/760/detail/?native=true\",\"sell_type\":1,\"en_name\":\"Malfy Gin Rossa\",\"price\":63500,\"discount_percent\":19,\"is_temp_hidden\":false,\"is_hidden_at_bar\":true,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":false,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":null,\"review_rate\":4.8,\"review_count\":37,\"tags\":[],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 760,
+  "name": "몰피 진 로사",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/d887ee36-16bd-4a82-baf0-708f74492937.jpg",
+  "is_hidden": true,
+  "web_url": "https://api.dailyshot.co/pickup/products/760/detail/?native=true",
+  "sell_type": 1,
+  "en_name": "Malfy Gin Rossa",
+  "price": 63500,
+  "discount_percent": 19,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": true,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": false,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": null,
+  "review_rate": 4.8,
+  "review_count": 37,
+  "tags": [],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

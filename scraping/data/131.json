@@ -1,1 +1,25 @@
-"{\"id\":131,\"name\":\"전통주갤러리 설 선물 특별전 - 택이 선물세트\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/598de7f3-2bfd-4c32-8939-b4a044d34655.jpg\",\"is_hidden\":true,\"web_url\":null,\"sell_type\":0,\"en_name\":\"Taeki Gift Set\",\"price\":20900,\"discount_percent\":null,\"is_temp_hidden\":false,\"is_hidden_at_bar\":true,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/d670b76f-6ec9-445d-9e34-252fdfd51e32.png\",\"review_rate\":0.0,\"review_count\":0,\"tags\":[],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 131,
+  "name": "전통주갤러리 설 선물 특별전 - 택이 선물세트",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/598de7f3-2bfd-4c32-8939-b4a044d34655.jpg",
+  "is_hidden": true,
+  "web_url": null,
+  "sell_type": 0,
+  "en_name": "Taeki Gift Set",
+  "price": 20900,
+  "discount_percent": null,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": true,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/d670b76f-6ec9-445d-9e34-252fdfd51e32.png",
+  "review_rate": 0,
+  "review_count": 0,
+  "tags": [],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

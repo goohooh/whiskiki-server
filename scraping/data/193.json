@@ -1,1 +1,25 @@
-"{\"id\":193,\"name\":\"카발란 솔리스트 포트 캐스크 스트렝스\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/73aded6b-5c76-4ff4-8ceb-f4932cfad1c9.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/193/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Kavalan Solist Port Cask Strength\",\"price\":294000,\"discount_percent\":24,\"is_temp_hidden\":true,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":true,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/5e62c7de-c986-4ee2-8fb2-f1895947b72e.png\",\"review_rate\":4.9,\"review_count\":17,\"tags\":[],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 193,
+  "name": "카발란 솔리스트 포트 캐스크 스트렝스",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/73aded6b-5c76-4ff4-8ceb-f4932cfad1c9.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/193/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Kavalan Solist Port Cask Strength",
+  "price": 294000,
+  "discount_percent": 24,
+  "is_temp_hidden": true,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": true,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/5e62c7de-c986-4ee2-8fb2-f1895947b72e.png",
+  "review_rate": 4.9,
+  "review_count": 17,
+  "tags": [],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

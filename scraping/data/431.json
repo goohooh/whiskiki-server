@@ -1,1 +1,25 @@
-"{\"id\":431,\"name\":\"킬호만 마키어 베이\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/41b2627e-db36-427b-a11a-b3af8992c00e.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/431/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Kilchoman Machir Bay\",\"price\":110900,\"discount_percent\":null,\"is_temp_hidden\":false,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"내 주변 픽업 주문하기\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/c2c07bcd-42a3-45f4-b6fa-46b503496958.png\",\"review_rate\":4.8,\"review_count\":6,\"tags\":[],\"status\":2,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 431,
+  "name": "킬호만 마키어 베이",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/41b2627e-db36-427b-a11a-b3af8992c00e.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/431/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Kilchoman Machir Bay",
+  "price": 110900,
+  "discount_percent": null,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "내 주변 픽업 주문하기",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/c2c07bcd-42a3-45f4-b6fa-46b503496958.png",
+  "review_rate": 4.8,
+  "review_count": 6,
+  "tags": [],
+  "status": 2,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

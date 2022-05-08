@@ -1,1 +1,25 @@
-"{\"id\":1374,\"name\":\"맥네어스 럼 릭 블렌디드 몰트 12년\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/c0734d20-929f-4db0-895f-93f2da5d24e3.jpeg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/1374/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Macnair's Lum Reek Blended Malt 12yo\",\"price\":126500,\"discount_percent\":21,\"is_temp_hidden\":false,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"내 주변 픽업 주문하기\",\"pay_button_help_text\":null,\"image\":null,\"review_rate\":4.0,\"review_count\":7,\"tags\":[],\"status\":2,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 1374,
+  "name": "맥네어스 럼 릭 블렌디드 몰트 12년",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/c0734d20-929f-4db0-895f-93f2da5d24e3.jpeg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/1374/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Macnair's Lum Reek Blended Malt 12yo",
+  "price": 126500,
+  "discount_percent": 21,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "내 주변 픽업 주문하기",
+  "pay_button_help_text": null,
+  "image": null,
+  "review_rate": 4,
+  "review_count": 7,
+  "tags": [],
+  "status": 2,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

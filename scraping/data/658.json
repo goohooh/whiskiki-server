@@ -1,1 +1,38 @@
-"{\"id\":658,\"name\":\"롬자 엑스포트 라거 24캔(임박분)\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/efe1ecc5-2a60-419a-8c1d-b6811c11a4d0.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/658/detail/?native=true\",\"sell_type\":1,\"en_name\":\"Lomza Export Lager 24 Cans\",\"price\":30000,\"discount_percent\":50,\"is_temp_hidden\":true,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":true,\"is_one_day_delivery\":false,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":null,\"review_rate\":5.0,\"review_count\":3,\"tags\":[{\"name\":\"특가\",\"text_color\":\"#FF8C19\",\"background_hex\":\"#FF8C19\",\"background_alpha\":16},{\"name\":\"한정판\",\"text_color\":\"#FF8C19\",\"background_hex\":\"#FF8C19\",\"background_alpha\":16}],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 658,
+  "name": "롬자 엑스포트 라거 24캔(임박분)",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/efe1ecc5-2a60-419a-8c1d-b6811c11a4d0.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/658/detail/?native=true",
+  "sell_type": 1,
+  "en_name": "Lomza Export Lager 24 Cans",
+  "price": 30000,
+  "discount_percent": 50,
+  "is_temp_hidden": true,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": true,
+  "is_one_day_delivery": false,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": null,
+  "review_rate": 5,
+  "review_count": 3,
+  "tags": [
+    {
+      "name": "특가",
+      "text_color": "#FF8C19",
+      "background_hex": "#FF8C19",
+      "background_alpha": 16
+    },
+    {
+      "name": "한정판",
+      "text_color": "#FF8C19",
+      "background_hex": "#FF8C19",
+      "background_alpha": 16
+    }
+  ],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

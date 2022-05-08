@@ -1,1 +1,32 @@
-"{\"id\":1996,\"name\":\"[릴레이 오픈 - 3월 16일 17시] 글렌알라키 11년 PX 셰리 우드 피니시\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/05fa1a08-bbdb-4b6e-8f5d-026b3d87d926.jpg\",\"is_hidden\":true,\"web_url\":\"https://api.dailyshot.co/pickup/products/1996/detail/?native=true\",\"sell_type\":2,\"en_name\":\"GlenAllachie 11y PX Sherry Wood Finish\",\"price\":179500,\"discount_percent\":23,\"is_temp_hidden\":true,\"is_hidden_at_bar\":true,\"is_temp_hidden_at_bar\":true,\"is_one_day_delivery\":false,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":null,\"review_rate\":4.9,\"review_count\":9,\"tags\":[{\"name\":\"한정판\",\"text_color\":\"#FF8C19\",\"background_hex\":\"#FF8C19\",\"background_alpha\":16}],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 1996,
+  "name": "[릴레이 오픈 - 3월 16일 17시] 글렌알라키 11년 PX 셰리 우드 피니시",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/05fa1a08-bbdb-4b6e-8f5d-026b3d87d926.jpg",
+  "is_hidden": true,
+  "web_url": "https://api.dailyshot.co/pickup/products/1996/detail/?native=true",
+  "sell_type": 2,
+  "en_name": "GlenAllachie 11y PX Sherry Wood Finish",
+  "price": 179500,
+  "discount_percent": 23,
+  "is_temp_hidden": true,
+  "is_hidden_at_bar": true,
+  "is_temp_hidden_at_bar": true,
+  "is_one_day_delivery": false,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": null,
+  "review_rate": 4.9,
+  "review_count": 9,
+  "tags": [
+    {
+      "name": "한정판",
+      "text_color": "#FF8C19",
+      "background_hex": "#FF8C19",
+      "background_alpha": 16
+    }
+  ],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

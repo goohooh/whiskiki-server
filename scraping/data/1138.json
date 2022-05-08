@@ -1,1 +1,25 @@
-"{\"id\":1138,\"name\":\"룰루 르 프랑세 화이트\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/fa9a8e96-2422-4bba-8754-22e28f32e934.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/1138/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Lulu le Francais White\",\"price\":20900,\"discount_percent\":19,\"is_temp_hidden\":false,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"내 주변 픽업 주문하기\",\"pay_button_help_text\":null,\"image\":null,\"review_rate\":4.5,\"review_count\":2,\"tags\":[],\"status\":2,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 1138,
+  "name": "룰루 르 프랑세 화이트",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/fa9a8e96-2422-4bba-8754-22e28f32e934.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/1138/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Lulu le Francais White",
+  "price": 20900,
+  "discount_percent": 19,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "내 주변 픽업 주문하기",
+  "pay_button_help_text": null,
+  "image": null,
+  "review_rate": 4.5,
+  "review_count": 2,
+  "tags": [],
+  "status": 2,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

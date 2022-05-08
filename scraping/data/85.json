@@ -1,1 +1,32 @@
-"{\"id\":85,\"name\":\"[당일픽업] 플루토 블론드 에일 1L 패키지\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/7eab676a-a32e-44df-8d9d-b5eccabea979.jpg\",\"is_hidden\":true,\"web_url\":\"https://api.dailyshot.co/pickup/products/85/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Pluto Blonde Ale Package\",\"price\":27000,\"discount_percent\":null,\"is_temp_hidden\":false,\"is_hidden_at_bar\":true,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/7085fe7a-8e46-4c87-b6f4-f6e19539ecb2.png\",\"review_rate\":0.0,\"review_count\":0,\"tags\":[{\"name\":\"특정매장\",\"text_color\":\"#5D5D5D\",\"background_hex\":\"#5D5D5D\",\"background_alpha\":16}],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 85,
+  "name": "[당일픽업] 플루토 블론드 에일 1L 패키지",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/7eab676a-a32e-44df-8d9d-b5eccabea979.jpg",
+  "is_hidden": true,
+  "web_url": "https://api.dailyshot.co/pickup/products/85/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Pluto Blonde Ale Package",
+  "price": 27000,
+  "discount_percent": null,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": true,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/7085fe7a-8e46-4c87-b6f4-f6e19539ecb2.png",
+  "review_rate": 0,
+  "review_count": 0,
+  "tags": [
+    {
+      "name": "특정매장",
+      "text_color": "#5D5D5D",
+      "background_hex": "#5D5D5D",
+      "background_alpha": 16
+    }
+  ],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

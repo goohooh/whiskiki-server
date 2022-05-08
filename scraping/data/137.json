@@ -1,1 +1,25 @@
-"{\"id\":137,\"name\":\"배럴 컬렉션 판타씨 사우어\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/9acd71cc-d67a-47a0-97c0-5b585514cfe8.jpg\",\"is_hidden\":true,\"web_url\":null,\"sell_type\":0,\"en_name\":\"Barrel Collection Fantasy Sour\",\"price\":28000,\"discount_percent\":null,\"is_temp_hidden\":false,\"is_hidden_at_bar\":true,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/c128fb57-9668-46f8-a57b-b34be2e43767.png\",\"review_rate\":5.0,\"review_count\":2,\"tags\":[],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 137,
+  "name": "배럴 컬렉션 판타씨 사우어",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/9acd71cc-d67a-47a0-97c0-5b585514cfe8.jpg",
+  "is_hidden": true,
+  "web_url": null,
+  "sell_type": 0,
+  "en_name": "Barrel Collection Fantasy Sour",
+  "price": 28000,
+  "discount_percent": null,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": true,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/c128fb57-9668-46f8-a57b-b34be2e43767.png",
+  "review_rate": 5,
+  "review_count": 2,
+  "tags": [],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

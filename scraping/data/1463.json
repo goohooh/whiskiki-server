@@ -1,1 +1,32 @@
-"{\"id\":1463,\"name\":\"화이트 헤더 21년\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/0b4a1620-13a7-4469-b584-bb7d5ae1c860.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/1463/detail/?native=true\",\"sell_type\":0,\"en_name\":\"White Heather 21yo\",\"price\":365000,\"discount_percent\":23,\"is_temp_hidden\":false,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"내 주변 픽업 주문하기\",\"pay_button_help_text\":null,\"image\":null,\"review_rate\":4.8,\"review_count\":12,\"tags\":[{\"name\":\"한정판\",\"text_color\":\"#FF8C19\",\"background_hex\":\"#FF8C19\",\"background_alpha\":16}],\"status\":2,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 1463,
+  "name": "화이트 헤더 21년",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/0b4a1620-13a7-4469-b584-bb7d5ae1c860.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/1463/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "White Heather 21yo",
+  "price": 365000,
+  "discount_percent": 23,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "내 주변 픽업 주문하기",
+  "pay_button_help_text": null,
+  "image": null,
+  "review_rate": 4.8,
+  "review_count": 12,
+  "tags": [
+    {
+      "name": "한정판",
+      "text_color": "#FF8C19",
+      "background_hex": "#FF8C19",
+      "background_alpha": 16
+    }
+  ],
+  "status": 2,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

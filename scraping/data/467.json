@@ -1,1 +1,25 @@
-"{\"id\":467,\"name\":\"퍼컬렌 10년 싱글 그레인\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/d7aa68d5-6993-4d5b-8aa6-8c5758e53424.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/467/detail/?native=true\",\"sell_type\":1,\"en_name\":\"Fercullen 10 yo Single Grain\",\"price\":132500,\"discount_percent\":22,\"is_temp_hidden\":false,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":false,\"pay_button_text\":\"내 주변 픽업 주문하기\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/886fb524-3663-4470-9986-cf5f6b0df83b.png\",\"review_rate\":0.0,\"review_count\":0,\"tags\":[],\"status\":2,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 467,
+  "name": "퍼컬렌 10년 싱글 그레인",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/d7aa68d5-6993-4d5b-8aa6-8c5758e53424.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/467/detail/?native=true",
+  "sell_type": 1,
+  "en_name": "Fercullen 10 yo Single Grain",
+  "price": 132500,
+  "discount_percent": 22,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": false,
+  "pay_button_text": "내 주변 픽업 주문하기",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/886fb524-3663-4470-9986-cf5f6b0df83b.png",
+  "review_rate": 0,
+  "review_count": 0,
+  "tags": [],
+  "status": 2,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

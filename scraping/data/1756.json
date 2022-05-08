@@ -1,1 +1,25 @@
-"{\"id\":1756,\"name\":\"스칼리웩\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/70721d9c-4037-4b7b-80f1-22a825d42e0d.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/1756/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Scallywag\",\"price\":103200,\"discount_percent\":null,\"is_temp_hidden\":false,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"내 주변 픽업 주문하기\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/35cf4f3d-34ec-4672-a388-58e22c3ee672.png\",\"review_rate\":4.5,\"review_count\":45,\"tags\":[],\"status\":2,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 1756,
+  "name": "스칼리웩",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/70721d9c-4037-4b7b-80f1-22a825d42e0d.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/1756/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Scallywag",
+  "price": 103200,
+  "discount_percent": null,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "내 주변 픽업 주문하기",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/35cf4f3d-34ec-4672-a388-58e22c3ee672.png",
+  "review_rate": 4.5,
+  "review_count": 45,
+  "tags": [],
+  "status": 2,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

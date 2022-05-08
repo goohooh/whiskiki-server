@@ -1,1 +1,25 @@
-"{\"id\":711,\"name\":\"비네롱 드 뷕시, 부르고뉴 꼬뜨 샬로네즈 피노 누아\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/aa877f86-cda1-4755-84e9-27dc18dea373.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/711/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Vignerons de Buxy, Bourgogne Cote Chalonnaise Pinot Noir\",\"price\":28100,\"discount_percent\":20,\"is_temp_hidden\":true,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":true,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":null,\"review_rate\":0.0,\"review_count\":0,\"tags\":[],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 711,
+  "name": "비네롱 드 뷕시, 부르고뉴 꼬뜨 샬로네즈 피노 누아",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/aa877f86-cda1-4755-84e9-27dc18dea373.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/711/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Vignerons de Buxy, Bourgogne Cote Chalonnaise Pinot Noir",
+  "price": 28100,
+  "discount_percent": 20,
+  "is_temp_hidden": true,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": true,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": null,
+  "review_rate": 0,
+  "review_count": 0,
+  "tags": [],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

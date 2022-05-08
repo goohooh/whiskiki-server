@@ -1,1 +1,25 @@
-"{\"id\":146,\"name\":\"베일리스\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/97e81cf6-129b-480f-a351-6ac5e6a009f9.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/146/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Baileys\",\"price\":36000,\"discount_percent\":17,\"is_temp_hidden\":false,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"내 주변 픽업 주문하기\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/8bc97fa9-893f-4a0c-b886-bd69c1effdb6.png\",\"review_rate\":4.8,\"review_count\":13,\"tags\":[],\"status\":2,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 146,
+  "name": "베일리스",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/97e81cf6-129b-480f-a351-6ac5e6a009f9.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/146/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Baileys",
+  "price": 36000,
+  "discount_percent": 17,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "내 주변 픽업 주문하기",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/8bc97fa9-893f-4a0c-b886-bd69c1effdb6.png",
+  "review_rate": 4.8,
+  "review_count": 13,
+  "tags": [],
+  "status": 2,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

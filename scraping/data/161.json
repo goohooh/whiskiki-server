@@ -1,1 +1,25 @@
-"{\"id\":161,\"name\":\"라프로익 셀렉트\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/9be20642-262e-4ceb-bf48-eb982d91e41a.jpg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/161/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Laphroaig Select\",\"price\":82000,\"discount_percent\":18,\"is_temp_hidden\":true,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":true,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/8373e288-d8b1-4a91-86df-474cbcfc9ed5.png\",\"review_rate\":4.3,\"review_count\":4,\"tags\":[],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 161,
+  "name": "라프로익 셀렉트",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/9be20642-262e-4ceb-bf48-eb982d91e41a.jpg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/161/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Laphroaig Select",
+  "price": 82000,
+  "discount_percent": 18,
+  "is_temp_hidden": true,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": true,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/8373e288-d8b1-4a91-86df-474cbcfc9ed5.png",
+  "review_rate": 4.3,
+  "review_count": 4,
+  "tags": [],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

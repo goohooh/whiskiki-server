@@ -1,1 +1,32 @@
-"{\"id\":417,\"name\":\"봄베이 사파이어 전용잔 패키지\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/9ae73cb2-ba24-48f1-9bdf-32d373927513.jpeg\",\"is_hidden\":true,\"web_url\":\"https://api.dailyshot.co/pickup/products/417/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Bombay Sapphire Gift Set\",\"price\":39990,\"discount_percent\":null,\"is_temp_hidden\":false,\"is_hidden_at_bar\":true,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"모든 매장에서 품절되었습니다.\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/ef71464b-a077-4f54-9d17-15875920f8f5.jpeg\",\"review_rate\":5.0,\"review_count\":17,\"tags\":[{\"name\":\"한정판\",\"text_color\":\"#FF8C19\",\"background_hex\":\"#FF8C19\",\"background_alpha\":16}],\"status\":0,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 417,
+  "name": "봄베이 사파이어 전용잔 패키지",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/9ae73cb2-ba24-48f1-9bdf-32d373927513.jpeg",
+  "is_hidden": true,
+  "web_url": "https://api.dailyshot.co/pickup/products/417/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Bombay Sapphire Gift Set",
+  "price": 39990,
+  "discount_percent": null,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": true,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "모든 매장에서 품절되었습니다.",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/ef71464b-a077-4f54-9d17-15875920f8f5.jpeg",
+  "review_rate": 5,
+  "review_count": 17,
+  "tags": [
+    {
+      "name": "한정판",
+      "text_color": "#FF8C19",
+      "background_hex": "#FF8C19",
+      "background_alpha": 16
+    }
+  ],
+  "status": 0,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}

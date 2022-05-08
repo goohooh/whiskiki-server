@@ -1,1 +1,25 @@
-"{\"id\":2497,\"name\":\"벨즈 1L\",\"thumbnail_image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/7e9fe62f-1870-488b-8f92-420be5b630dd.jpeg\",\"is_hidden\":false,\"web_url\":\"https://api.dailyshot.co/pickup/products/2497/detail/?native=true\",\"sell_type\":0,\"en_name\":\"Bell’s 1L\",\"price\":22300,\"discount_percent\":19,\"is_temp_hidden\":false,\"is_hidden_at_bar\":false,\"is_temp_hidden_at_bar\":false,\"is_one_day_delivery\":true,\"pay_button_text\":\"내 주변 픽업 주문하기\",\"pay_button_help_text\":null,\"image\":\"https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/96e5c158-0b05-45ca-b52f-a2a8d225a46d.png\",\"review_rate\":4.9,\"review_count\":27,\"tags\":[],\"status\":2,\"expect_delivery_date\":null,\"expect_delivery_datetime_detail\":null,\"delivery_notice\":\"픽업 매장 선택 시 도착 예정일이 표시됩니다.\"}"
+{
+  "id": 2497,
+  "name": "벨즈 1L",
+  "thumbnail_image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/7e9fe62f-1870-488b-8f92-420be5b630dd.jpeg",
+  "is_hidden": false,
+  "web_url": "https://api.dailyshot.co/pickup/products/2497/detail/?native=true",
+  "sell_type": 0,
+  "en_name": "Bell’s 1L",
+  "price": 22300,
+  "discount_percent": 19,
+  "is_temp_hidden": false,
+  "is_hidden_at_bar": false,
+  "is_temp_hidden_at_bar": false,
+  "is_one_day_delivery": true,
+  "pay_button_text": "내 주변 픽업 주문하기",
+  "pay_button_help_text": null,
+  "image": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/96e5c158-0b05-45ca-b52f-a2a8d225a46d.png",
+  "review_rate": 4.9,
+  "review_count": 27,
+  "tags": [],
+  "status": 2,
+  "expect_delivery_date": null,
+  "expect_delivery_datetime_detail": null,
+  "delivery_notice": "픽업 매장 선택 시 도착 예정일이 표시됩니다."
+}
