@@ -20,8 +20,8 @@ const createWhisky = async (body) => {
  * @param {number} [options.page] - Current page (default = 1)
  * @returns {Promise<QueryResult>}
  */
-const queryWhiskies = async (filter, options) => {
-  const whiskies = await Whisky.paginate(filter, options);
+const queryWhiskies = async (agg) => {
+  const whiskies = await Whisky.aggregate(agg);
   return whiskies;
 };
 

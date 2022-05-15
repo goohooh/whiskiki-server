@@ -9,12 +9,24 @@ const { whiskyService } = require('../services');
 //   res.status(httpStatus.CREATED).send(user);
 // });
 
-const getWhiskies = catchAsync(async (req, res) => {
-  const { keyword, offset = 0, limit = 20 } = req.query;
-  const filter = { $text: { $search: decodeURIComponent(keyword) } };
-  const options = { limit, page: offset + 1 };
+const ENGLISH = /^[A-Za-z0-9]*$/;
 
-  const { result } = await whiskyService.queryWhiskies(filter, options);
+const getWhiskies = catchAsync(async (req, res) => {
+  const { keyword, limit = 20 } = req.query;
+
+  const query = decodeURIComponent(keyword);
+  const path = ENGLISH.test(query) ? 'enName' : 'koName';
+
+  const result = await whiskyService.queryWhiskies([
+    {
+      $search: {
+        index: 'name',
+        autocomplete: { query, path },
+      },
+    },
+    { $limit: limit },
+    { $project: { __v: 0 } },
+  ]);
 
   res.send({
     status: 'SUCCESS',
