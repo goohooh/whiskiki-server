@@ -1,0 +1,1 @@
+{"name":"RequestError","message":"Error: socket hang up","cause":{"code":"ECONNRESET"},"error":{"code":"ECONNRESET"},"options":{"uri":"https://api.dailyshot.co/pickup/products/2200/detail/?native=true","simple":true,"resolveWithFullResponse":false,"transform2xxOnly":false}}
