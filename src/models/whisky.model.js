@@ -36,6 +36,7 @@ const whiskySchema = mongoose.Schema(
 // add plugin that converts mongoose to json
 whiskySchema.plugin(toJSON);
 whiskySchema.plugin(paginate);
+whiskySchema.index({ koName: 'text', enName: 'text' });
 
 /**
  * @typedef User

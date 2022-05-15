@@ -8,28 +8,34 @@ const { whiskyService } = require('../services');
 //   const user = await whiskyService.createWhisky(req.body);
 //   res.status(httpStatus.CREATED).send(user);
 // });
-const ENGLISH = /^[A-Za-z]*$/;
 
 const getWhiskies = catchAsync(async (req, res) => {
-  console.log('hi');
-  const { keyword } = req.query;
-  let filterField = '';
-  if (ENGLISH.test(keyword)) {
-    filterField = 'enName';
-  } else {
-    filterField = 'koName';
-  }
-  const filter = { [filterField]: decodeURIComponent(keyword) };
-  const options = { limit: 20, page: 1 };
-  const result = await whiskyService.queryWhiskies(filter, options);
-  res.send(result);
+  const { keyword, offset = 0, limit = 20 } = req.query;
+  const filter = { $text: { $search: decodeURIComponent(keyword) } };
+  const options = { limit, page: offset + 1 };
+
+  const { result } = await whiskyService.queryWhiskies(filter, options);
+
+  res.send({
+    status: 'SUCCESS',
+    serverDatetime: new Date().toISOString(),
+    data: {
+      count: result.length,
+      keyword,
+      result,
+    },
+  });
 });
 const getWhisky = catchAsync(async (req, res) => {
   const whisky = await whiskyService.getWhiskyById(req.params.whiskyId);
   if (!whisky) {
     throw new ApiError(httpStatus.NOT_FOUND, 'Whisky not found');
   }
-  res.send(whisky);
+  res.send({
+    status: 'SUCCESS',
+    serverDatetime: new Date().toISOString(),
+    data: whisky,
+  });
 });
 
 // const updateWhisky = catchAsync(async (req, res) => {
