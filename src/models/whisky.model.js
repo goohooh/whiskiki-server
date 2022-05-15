@@ -3,22 +3,18 @@ const { toJSON, paginate } = require('./plugins');
 
 const whiskySchema = mongoose.Schema(
   {
-    name_en: {
+    enName: {
       type: String,
-      required: true,
       trim: true,
     },
-    name_ko: {
+    koName: {
       type: String,
-      required: true,
+      // required: true,
       trim: true,
-    },
-    email: {
-      type: String,
     },
     category: {
       type: String,
-      required: true,
+      // required: true,
     },
     country: {
       type: String,
@@ -27,6 +23,9 @@ const whiskySchema = mongoose.Schema(
     abv: {
       type: String,
       // required: true,
+    },
+    legacyId: {
+      type: String,
     },
   },
   {

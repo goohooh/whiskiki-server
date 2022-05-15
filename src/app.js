@@ -14,6 +14,8 @@ const routes = require('./routes/v1');
 const { errorConverter, errorHandler } = require('./middlewares/error');
 const ApiError = require('./utils/ApiError');
 
+const seeding = require('../scraping/db');
+
 const app = express();
 
 if (config.env !== 'test') {

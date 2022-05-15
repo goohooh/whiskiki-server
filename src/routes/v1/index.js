@@ -17,7 +17,7 @@ const defaultRoutes = [
   //   route: userRoute,
   // },
   {
-    path: 'api/whisky',
+    path: '/api/whisky',
     route: whiskyRoute,
   },
 ];

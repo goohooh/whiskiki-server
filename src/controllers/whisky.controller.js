@@ -8,15 +8,22 @@ const { whiskyService } = require('../services');
 //   const user = await whiskyService.createWhisky(req.body);
 //   res.status(httpStatus.CREATED).send(user);
 // });
+const ENGLISH = /^[A-Za-z]*$/;
 
 const getWhiskies = catchAsync(async (req, res) => {
+  console.log('hi');
   const { keyword } = req.query;
-  const filter = { name_ko: keyword };
+  let filterField = '';
+  if (ENGLISH.test(keyword)) {
+    filterField = 'enName';
+  } else {
+    filterField = 'koName';
+  }
+  const filter = { [filterField]: decodeURIComponent(keyword) };
   const options = { limit: 20, page: 1 };
   const result = await whiskyService.queryWhiskies(filter, options);
   res.send(result);
 });
-
 const getWhisky = catchAsync(async (req, res) => {
   const whisky = await whiskyService.getWhiskyById(req.params.whiskyId);
   if (!whisky) {
