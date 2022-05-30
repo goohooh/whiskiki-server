@@ -2,6 +2,7 @@ const express = require('express');
 // const authRoute = require('./auth.route');
 // const userRoute = require('./user.route');
 const whiskyRoute = require('./whisky.route');
+const flavorRoute = require('./flavor.route');
 const docsRoute = require('./docs.route');
 const config = require('../../config/config');
 
@@ -19,6 +20,10 @@ const defaultRoutes = [
   {
     path: '/api/whisky',
     route: whiskyRoute,
+  },
+  {
+    path: '/api/flavor',
+    route: flavorRoute,
   },
 ];
 

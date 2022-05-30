@@ -39,7 +39,7 @@ whiskySchema.plugin(paginate);
 whiskySchema.index({ koName: 'text', enName: 'text' });
 
 /**
- * @typedef User
+ * @typedef Whisky
  */
 const Whisky = mongoose.model('Whisky', whiskySchema);
 
