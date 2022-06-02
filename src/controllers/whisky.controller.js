@@ -12,7 +12,7 @@ const { whiskyService } = require('../services');
 const ENGLISH = /^[A-Za-z0-9]*$/;
 
 const getWhiskies = catchAsync(async (req, res) => {
-  const { keyword, limit = 20 } = req.query;
+  const { keyword, limit = 20, offset = 0 } = req.query;
 
   const query = decodeURIComponent(keyword);
   const path = ENGLISH.test(query) ? 'enName' : 'koName';
@@ -24,7 +24,8 @@ const getWhiskies = catchAsync(async (req, res) => {
         autocomplete: { query, path },
       },
     },
-    { $limit: limit },
+    { $skip: Number.parseInt(offset * limit, 10) },
+    { $limit: Number.parseInt(limit, 10) },
     { $project: { __v: 0 } },
   ]);
 

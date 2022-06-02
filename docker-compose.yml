@@ -5,7 +5,7 @@ services:
     build: .
     image: node-app
     environment:
-      - MONGODB_URL=mongodb://mongodb:27017/node-boilerplate
+      - MONGODB_URL=mongodb+srv://whiskiki:1IGbcjNtO6dnaNgd@cluster0.4vlij.mongodb.net/whiskiki?retryWrites=true&w=majority
     ports:
       - '3000:3000'
     depends_on:
