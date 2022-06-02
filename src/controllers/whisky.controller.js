@@ -26,7 +26,8 @@ const getWhiskies = catchAsync(async (req, res) => {
     },
     { $skip: Number.parseInt(offset * limit, 10) },
     { $limit: Number.parseInt(limit, 10) },
-    { $project: { __v: 0 } },
+    { $project: { id: '$_id', legacyId: 1, enName: 1, koName: 1, country: 1, category: 1, abv: 1 } },
+    { $project: { __v: 0, _id: 0 } },
   ]);
 
   res.send({
