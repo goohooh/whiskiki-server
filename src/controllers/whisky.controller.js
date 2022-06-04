@@ -12,10 +12,13 @@ const { whiskyService } = require('../services');
 const ENGLISH = /^[A-Za-z0-9]*$/;
 
 const getWhiskies = catchAsync(async (req, res) => {
-  const { keyword, limit = 20, offset = 0 } = req.query;
+  const { keyword, limit = 20, page = 0 } = req.query;
 
   const query = decodeURIComponent(keyword);
   const path = ENGLISH.test(query) ? 'enName' : 'koName';
+
+  const $skip = Number.parseInt(page * limit, 10);
+  const $limit = Number.parseInt(limit, 10);
 
   const result = await whiskyService.queryWhiskies([
     {
@@ -24,19 +27,30 @@ const getWhiskies = catchAsync(async (req, res) => {
         autocomplete: { query, path },
       },
     },
-    { $skip: Number.parseInt(offset * limit, 10) },
-    { $limit: Number.parseInt(limit, 10) },
     { $project: { id: '$_id', legacyId: 1, enName: 1, koName: 1, country: 1, category: 1, abv: 1 } },
     { $project: { __v: 0, _id: 0 } },
+    {
+      $facet: {
+        paginatedResults: [{ $skip }, { $limit }],
+        totalCount: [
+          {
+            $count: 'count',
+          },
+        ],
+      },
+    },
   ]);
+
+  const { paginatedResults, totalCount } = result[0];
 
   res.send({
     status: 'SUCCESS',
     serverDatetime: new Date().toISOString(),
     data: {
-      count: result.length,
+      totalCount: totalCount[0].count,
+      count: paginatedResults.length,
       keyword,
-      result,
+      result: paginatedResults,
     },
   });
 });
