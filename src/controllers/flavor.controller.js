@@ -19,6 +19,17 @@ const getFlavors = catchAsync(async (req, res) => {
   });
 });
 
+const getFlavorsPage = catchAsync(async (req, res) => {
+  const flavors = await flavorService.queryFlavors();
+
+  if (!flavors.length) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'Flavors not found');
+  }
+
+  res.render('flavors', { flavors });
+});
+
 module.exports = {
   getFlavors,
+  getFlavorsPage,
 };

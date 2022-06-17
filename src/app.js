@@ -6,6 +6,7 @@ const compression = require('compression');
 const cors = require('cors');
 const passport = require('passport');
 const httpStatus = require('http-status');
+const path = require('path');
 const config = require('./config/config');
 const morgan = require('./config/morgan');
 const { jwtStrategy } = require('./config/passport');
@@ -14,9 +15,12 @@ const routes = require('./routes/v1');
 const { errorConverter, errorHandler } = require('./middlewares/error');
 const ApiError = require('./utils/ApiError');
 
-const seeding = require('../scraping/db');
-
 const app = express();
+
+app.engine('html', require('ejs').renderFile);
+
+app.set('view engine', 'ejs');
+app.use(express.static(path.join(__dirname, 'views')));
 
 if (config.env !== 'test') {
   app.use(morgan.successHandler);
@@ -24,7 +28,11 @@ if (config.env !== 'test') {
 }
 
 // set security HTTP headers
-app.use(helmet());
+app.use(
+  helmet({
+    contentSecurityPolicy: false,
+  })
+);
 
 // parse json request body
 app.use(express.json());
