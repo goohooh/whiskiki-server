@@ -11,6 +11,9 @@ const { whiskyService } = require('../services');
 
 const ENGLISH = /^[A-Za-z0-9]*$/;
 
+const FILTER_REGEX =
+  /(할인|패키지|1인|1인당|1주년|오픈|특가|이벤트|논칠필터|당일픽업|특가|사전예약|선물|추첨|coming|only|1L)/gi;
+
 const getWhiskies = catchAsync(async (req, res) => {
   const { keyword, limit = 20, page = 0 } = req.query;
 
@@ -27,7 +30,20 @@ const getWhiskies = catchAsync(async (req, res) => {
         autocomplete: { query, path },
       },
     },
-    { $project: { id: '$_id', legacyId: 1, enName: 1, koName: 1, country: 1, category: 1, abv: 1 } },
+    {
+      $match: { koName: { $not: FILTER_REGEX } },
+    },
+    {
+      $project: {
+        id: '$_id',
+        legacyId: 1,
+        enName: 1,
+        koName: 1,
+        country: 1,
+        category: 1,
+        abv: 1,
+      },
+    },
     { $project: { __v: 0, _id: 0 } },
     {
       $facet: {
@@ -47,7 +63,7 @@ const getWhiskies = catchAsync(async (req, res) => {
     status: 'SUCCESS',
     serverDatetime: new Date().toISOString(),
     data: {
-      totalCount: totalCount[0].count,
+      totalCount: totalCount[0]?.count || 0,
       count: paginatedResults.length,
       keyword,
       result: paginatedResults,

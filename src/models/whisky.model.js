@@ -12,6 +12,9 @@ const whiskySchema = mongoose.Schema(
       // required: true,
       trim: true,
     },
+    imageUrl: {
+      type: String,
+    },
     category: {
       type: String,
       // required: true,
