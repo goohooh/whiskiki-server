@@ -59,6 +59,17 @@ const getWhiskies = catchAsync(async (req, res) => {
 
   const { paginatedResults, totalCount } = result[0];
 
+  if (!totalCount[0]) {
+    return res.send({
+      status: 'FAIL',
+      message: '위스키 정보가 존재하지 않습니다',
+      serverDatetime: new Date().toISOString(),
+      data: {
+        data: 'failed data',
+      },
+    });
+  }
+
   res.send({
     status: 'SUCCESS',
     serverDatetime: new Date().toISOString(),
@@ -70,16 +81,28 @@ const getWhiskies = catchAsync(async (req, res) => {
     },
   });
 });
+
 const getWhisky = catchAsync(async (req, res) => {
-  const whisky = await whiskyService.getWhiskyById(req.params.whiskyId);
-  if (!whisky) {
+  try {
+    const whisky = await whiskyService.getWhiskyById(req.params.whiskyId);
+    if (!whisky) {
+      return res.send({
+        status: 'FAIL',
+        serverDatetime: new Date().toISOString(),
+        messsage: '위스키 정보가 존재하지 않습니다',
+        data: {
+          data: 'failed data',
+        },
+      });
+    }
+    res.send({
+      status: 'SUCCESS',
+      serverDatetime: new Date().toISOString(),
+      data: whisky,
+    });
+  } catch (e) {
     throw new ApiError(httpStatus.NOT_FOUND, 'Whisky not found');
   }
-  res.send({
-    status: 'SUCCESS',
-    serverDatetime: new Date().toISOString(),
-    data: whisky,
-  });
 });
 
 // const updateWhisky = catchAsync(async (req, res) => {
