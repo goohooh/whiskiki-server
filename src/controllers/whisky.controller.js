@@ -12,7 +12,7 @@ const { whiskyService } = require('../services');
 const ENGLISH = /^[A-Za-z0-9]*$/;
 
 const FILTER_REGEX =
-  /(할인|패키지|1인|1인당|1주년|오픈|특가|이벤트|논칠필터|당일픽업|특가|사전예약|선물|추첨|coming|only|1L)/gi;
+  /(할인|패키지|1인|1인당|1주년|오픈|특가|이벤트|논칠필터|당일픽업|특가|사전예약|선물|추첨|coming|only|1L|미니어처|1박스|세트)/gi;
 
 const getWhiskies = catchAsync(async (req, res) => {
   const { keyword, limit = 20, page = 0 } = req.query;
@@ -105,6 +105,10 @@ const getWhisky = catchAsync(async (req, res) => {
   }
 });
 
+const requestNewWhisky = catchAsync((req, res) => {
+  res.render('requestNewWhisky');
+});
+
 // const updateWhisky = catchAsync(async (req, res) => {
 //   const user = await whiskyService.updateWhiskyById(req.params.whiskyId, req.body);
 //   res.send(user);
@@ -119,6 +123,7 @@ module.exports = {
   // createWhisky,
   getWhiskies,
   getWhisky,
+  requestNewWhisky,
   // updateWhisky,
   // deleteWhisky,
 };
