@@ -70,11 +70,15 @@ const getWhiskies = catchAsync(async (req, res) => {
     });
   }
 
+  const totalCountNumber = totalCount[0]?.count || 0;
+
   res.send({
     status: 'SUCCESS',
     serverDatetime: new Date().toISOString(),
     data: {
-      totalCount: totalCount[0]?.count || 0,
+      page,
+      totalPage: Math.ceil(totalCountNumber / limit),
+      totalCount: totalCountNumber,
       count: paginatedResults.length,
       keyword,
       result: paginatedResults,
