@@ -4,21 +4,26 @@ const path = require('path');
 
 const { Whisky } = require('../src/models');
 
+function sleep(ms) {
+  const wakeUpTime = Date.now() + ms;
+  while (Date.now() < wakeUpTime) {}
+}
 const dir = fs.readdirSync(path.join(__dirname, 'parsed2'));
 const whiskies = [];
 dir.forEach(async (filename) => {
   const data = fs.readFileSync(path.join(__dirname, `parsed2/${filename}`), 'utf-8');
-  const { id, ...rest } = JSON.parse(data);
-  whiskies.push({
-    legacyId: id,
-    ...rest,
-  });
+  const { id, imageUrl } = JSON.parse(data);
+  whiskies.push({ id, imageUrl });
 });
 
 module.exports = () => {
   console.log('Start seeding...');
   try {
-    Whisky.insertMany(whiskies);
+    whiskies.forEach(({ id, imageUrl }) => {
+      Whisky.update({ legacyId: id }, { $set: { imageUrl } }, { multi: true });
+      console.log(`${id}: ${imageUrl}`);
+      sleep(250);
+    });
   } catch (e) {
     console.error(e);
   }
