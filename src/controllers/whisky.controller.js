@@ -42,6 +42,7 @@ const getWhiskies = catchAsync(async (req, res) => {
         country: 1,
         category: 1,
         abv: 1,
+        imageUrl: 1,
       },
     },
     { $project: { __v: 0, _id: 0 } },
