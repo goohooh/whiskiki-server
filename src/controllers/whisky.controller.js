@@ -3,6 +3,10 @@ const pick = require('../utils/pick');
 const ApiError = require('../utils/ApiError');
 const catchAsync = require('../utils/catchAsync');
 const { whiskyService } = require('../services');
+const config = require('../config/config');
+const { IncomingWebhook } = require('@slack/webhook');
+
+const webhook = new IncomingWebhook(config.slack.webhookUrl);
 
 // const createWhisky = catchAsync(async (req, res) => {
 //   const user = await whiskyService.createWhisky(req.body);
@@ -105,6 +109,30 @@ const requestNewWhisky = catchAsync((req, res) => {
   res.render('requestNewWhisky');
 });
 
+const createRequestNewWhisky = catchAsync(async (req, res) => {
+  // const base64Image = req.file.buffer.toString('base64');
+
+  const { name, category, country } = req.body;
+  await webhook.send({
+    text: `새로운 위스키 신청이 접수 됐습니다.\n이름: ${name}\n종류: ${category || '없음'}\n국가: ${country || '없음'}`
+    // blocks: [
+    // {
+    //   type: 'section'
+    // }
+    // {
+    //   accessory: {
+    //     type: 'image',
+    //     image_url: `data:image/jpeg;base64,${base64Image}`,
+    //     alt_text: name
+    //   }
+    // }
+    // ]
+  });
+  res.redirect('/v1/api/whisky/request/success');
+});
+const requestSucceedNewWhisky = catchAsync((req, res) => {
+  res.render('requestSucceedNewWhisky');
+});
 // const updateWhisky = catchAsync(async (req, res) => {
 //   const user = await whiskyService.updateWhiskyById(req.params.whiskyId, req.body);
 //   res.send(user);
@@ -119,7 +147,9 @@ module.exports = {
   // createWhisky,
   getWhiskies,
   getWhisky,
-  requestNewWhisky
+  requestNewWhisky,
+  createRequestNewWhisky,
+  requestSucceedNewWhisky
   // updateWhisky,
   // deleteWhisky,
 };

@@ -1,7 +1,14 @@
 const express = require('express');
 // const validate = require('../../middlewares/validate');
 // const whiskyValidation = require('../../validations/user.validation');
+const path = require('path');
+const multer = require('multer');
 const whiskyController = require('../../controllers/whisky.controller');
+
+const upload = multer({
+  dest: path.join(__dirname, '../../../uploads'),
+  storage: multer.memoryStorage(),
+});
 
 const router = express.Router();
 
@@ -10,6 +17,11 @@ router
   // .post(auth('manageUsers'), validate(whiskyValidation.createUser), whiskyController.createUser)
   .get(whiskyController.getWhiskies);
 
+router
+  .route('/request')
+  .get(whiskyController.requestNewWhisky)
+  .post(upload.single('photo'), whiskyController.createRequestNewWhisky);
+router.route('/request/success').get(whiskyController.requestSucceedNewWhisky);
 router.route('/:whiskyId').get(whiskyController.getWhisky);
 // .patch(auth('manageUsers'), validate(whiskyValidation.updateUser), whiskyController.updateUser)
 // .delete(auth('manageUsers'), validate(whiskyValidation.deleteUser), whiskyController.deleteUser);
