@@ -62,17 +62,6 @@ const getWhiskies = catchAsync(async (req, res) => {
 
   const { paginatedResults, totalCount } = result[0];
 
-  if (!totalCount[0]) {
-    return res.send({
-      status: 'FAIL',
-      message: '위스키 정보가 존재하지 않습니다',
-      serverDatetime: new Date().toISOString(),
-      data: {
-        data: 'failed data'
-      }
-    });
-  }
-
   const totalCountNumber = totalCount[0]?.count || 0;
 
   res.send({
