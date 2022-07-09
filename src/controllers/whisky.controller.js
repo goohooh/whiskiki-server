@@ -13,6 +13,8 @@ const ENGLISH = /^[A-Za-z0-9]*$/;
 
 const FILTER_REGEX =
   /(할인|패키지|1인|1인당|1주년|오픈|특가|이벤트|논칠필터|당일픽업|특가|사전예약|선물|추첨|coming|only|1L|미니어처|1박스|세트)/gi;
+const FILTER_CATEGORY_REGEX =
+  /(와인|리큐르|진|백주|맥주|데킬라|사케|샴페인|칵테일|사이더|럼|소주|브랜디|꼬냑|보드카|라거|스타우트|깔바도스|막걸리|시럽)/gi;
 
 const getWhiskies = catchAsync(async (req, res) => {
   const { keyword, limit = 20, page = 0 } = req.query;
@@ -27,11 +29,11 @@ const getWhiskies = catchAsync(async (req, res) => {
     {
       $search: {
         index: 'name',
-        autocomplete: { query, path },
-      },
+        autocomplete: { query, path }
+      }
     },
     {
-      $match: { koName: { $not: FILTER_REGEX } },
+      $match: { koName: { $not: FILTER_REGEX }, category: { $not: FILTER_CATEGORY_REGEX } }
     },
     {
       $project: {
@@ -42,8 +44,8 @@ const getWhiskies = catchAsync(async (req, res) => {
         country: 1,
         category: 1,
         abv: 1,
-        imageUrl: 1,
-      },
+        imageUrl: 1
+      }
     },
     { $project: { __v: 0, _id: 0 } },
     {
@@ -51,11 +53,11 @@ const getWhiskies = catchAsync(async (req, res) => {
         paginatedResults: [{ $skip }, { $limit }],
         totalCount: [
           {
-            $count: 'count',
-          },
-        ],
-      },
-    },
+            $count: 'count'
+          }
+        ]
+      }
+    }
   ]);
 
   const { paginatedResults, totalCount } = result[0];
@@ -66,8 +68,8 @@ const getWhiskies = catchAsync(async (req, res) => {
       message: '위스키 정보가 존재하지 않습니다',
       serverDatetime: new Date().toISOString(),
       data: {
-        data: 'failed data',
-      },
+        data: 'failed data'
+      }
     });
   }
 
@@ -82,8 +84,8 @@ const getWhiskies = catchAsync(async (req, res) => {
       totalCount: totalCountNumber,
       count: paginatedResults.length,
       keyword,
-      result: paginatedResults,
-    },
+      result: paginatedResults
+    }
   });
 });
 
@@ -96,14 +98,14 @@ const getWhisky = catchAsync(async (req, res) => {
         serverDatetime: new Date().toISOString(),
         messsage: '위스키 정보가 존재하지 않습니다',
         data: {
-          data: 'failed data',
-        },
+          data: 'failed data'
+        }
       });
     }
     res.send({
       status: 'SUCCESS',
       serverDatetime: new Date().toISOString(),
-      data: whisky,
+      data: whisky
     });
   } catch (e) {
     throw new ApiError(httpStatus.NOT_FOUND, 'Whisky not found');
@@ -128,7 +130,7 @@ module.exports = {
   // createWhisky,
   getWhiskies,
   getWhisky,
-  requestNewWhisky,
+  requestNewWhisky
   // updateWhisky,
   // deleteWhisky,
 };
