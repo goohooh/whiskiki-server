@@ -14,7 +14,7 @@ const ENGLISH = /^[A-Za-z0-9]*$/;
 const FILTER_REGEX =
   /(할인|패키지|1인|1인당|1주년|오픈|특가|이벤트|논칠필터|당일픽업|특가|사전예약|선물|추첨|coming|only|1L|미니어처|1박스|세트)/gi;
 const FILTER_CATEGORY_REGEX =
-  /(와인|리큐르|진|백주|맥주|데킬라|사케|샴페인|칵테일|사이더|럼|소주|브랜디|꼬냑|보드카|라거|스타우트|깔바도스|막걸리|시럽)/gi;
+  /(와인|리큐르|진|백주|맥주|데킬라|사케|샴페인|칵테일|사이더|럼|소주|브랜디|꼬냑|보드카|라거|스타우트|깔바도스|막걸리|시럽|오드비)/gi;
 
 const getWhiskies = catchAsync(async (req, res) => {
   const { keyword, limit = 20, page = 0 } = req.query;
