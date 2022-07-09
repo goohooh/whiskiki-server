@@ -47,7 +47,14 @@
       }
 
       form {
+        display: flex;
+        flex-direction: column;
         padding: 0 26px;
+        height: calc(100vh - 200px);
+      }
+      .fields {
+
+        flex: 1 0 auto;
       }
 
       p {
@@ -96,12 +103,10 @@
     border: 0;
 }
 .center {
-  position: absolute;
-  left: 0;
-  bottom: 60px;
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-shrink: 0;
 }
 .submit-button {
   display: flex;
@@ -120,41 +125,43 @@
   <body>
     <h1>위스키 등록 요청하기</h1>
     <form method="post" action="/v1/api/whisky/request" enctype="multipart/form-data">
-      <div class="field">
-        <label class="mdc-text-field mdc-text-field--filled name">
-          <span class="mdc-text-field__ripple"></span>
-          <span class="mdc-floating-label" id="my-label-id">이름</span>
-          <input class="mdc-text-field__input" type="text" name="name" required aria-labelledby="my-label-id">
-          <span class="mdc-line-ripple"></span>
-        </label>
-      </div>
+      <div class="fields">
+        <div class="field">
+          <label class="mdc-text-field mdc-text-field--filled name">
+            <span class="mdc-text-field__ripple"></span>
+            <span class="mdc-floating-label" id="my-label-id">이름</span>
+            <input class="mdc-text-field__input" type="text" name="name" required aria-labelledby="my-label-id">
+            <span class="mdc-line-ripple"></span>
+          </label>
+        </div>
 
-      <div class="field">
-        <label class="mdc-text-field mdc-text-field--filled category">
-          <span class="mdc-text-field__ripple"></span>
-          <span class="mdc-floating-label" id="my-label-id">종류</span>
-          <input class="mdc-text-field__input" type="text" name="category" aria-labelledby="my-label-id">
-          <span class="mdc-line-ripple"></span>
-        </label>
-      </div>
+        <div class="field">
+          <label class="mdc-text-field mdc-text-field--filled category">
+            <span class="mdc-text-field__ripple"></span>
+            <span class="mdc-floating-label" id="my-label-id">종류</span>
+            <input class="mdc-text-field__input" type="text" name="category" aria-labelledby="my-label-id">
+            <span class="mdc-line-ripple"></span>
+          </label>
+        </div>
 
-      <div class="field">
-        <label class="mdc-text-field mdc-text-field--filled country">
-          <span class="mdc-text-field__ripple"></span>
-          <span class="mdc-floating-label" id="my-label-id">국가</span>
-          <input class="mdc-text-field__input" type="text" name="country" aria-labelledby="my-label-id">
-          <span class="mdc-line-ripple"></span>
-        </label>
-      </div>
+        <div class="field">
+          <label class="mdc-text-field mdc-text-field--filled country">
+            <span class="mdc-text-field__ripple"></span>
+            <span class="mdc-floating-label" id="my-label-id">국가</span>
+            <input class="mdc-text-field__input" type="text" name="country" aria-labelledby="my-label-id">
+            <span class="mdc-line-ripple"></span>
+          </label>
+        </div>
 
-      <h2>관련된 위스키 사진이 있다면 첨부해주세요.</h2>
-      <p>첨부 파일 등록은 최대 1개까지 가능합니다.</p>
+        <h2>관련된 위스키 사진이 있다면 첨부해주세요.</h2>
+        <p>첨부 파일 등록은 최대 1개까지 가능합니다.</p>
 
-      <div class="field">
-        <div class="filebox">
-          <input class="upload-name" value="첨부파일" placeholder="첨부파일">
-          <label for="file">파일찾기</label> 
-          <input id="file" type="file" name="photo" />
+        <div class="field">
+          <div class="filebox">
+            <input class="upload-name" value="첨부파일" placeholder="첨부파일">
+            <label for="file">파일찾기</label> 
+            <input id="file" type="file" name="photo" />
+          </div>
         </div>
       </div>
 
